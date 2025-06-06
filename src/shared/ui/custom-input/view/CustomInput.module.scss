@@ -1,0 +1,33 @@
+@import '../../../../app/style/variables.scss';
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin:20px  auto;
+    width: auto;
+    height: auto;
+}
+
+.primary{
+    background-color: aqua;
+    color: beige;
+    width: 200px;
+    height: 25px;
+
+  &:hover {
+    background-color: blueviolet;
+    border-color: red;
+}}
+
+.secondary {
+  border-color:bisque;
+  color:aquamarine;
+  width: 200px;
+    height: 25px;
+
+  &:hover {
+    background-color: blue;
+  }
+
+ 
+}

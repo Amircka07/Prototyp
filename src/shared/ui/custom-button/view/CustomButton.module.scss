@@ -1,0 +1,43 @@
+@import '../../../../app/style/variables.scss';
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 200px;
+  min-height: 45px;
+  max-width: 350px;
+  max-height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: $neutral-10;
+}
+
+.primary {
+  background-color: $orange-50;
+  color: $neutral-10;
+  border: none;
+
+  &:hover {
+    background-color: $orange-40;
+  }
+
+  &:active {
+    background-color: $orange-60;
+  }
+}
+
+.secondary {
+  border-color: $orange-50;
+  color: red;
+
+  &:hover {
+    background-color: $orange-40;
+  }
+
+  &:active {
+    background-color: $orange-10;
+  }
+}
+
